@@ -154,7 +154,7 @@ export default function SignUpScreen() {
 
           <View className='flex-row gap-3 justify-center pt-4'>
             <Text className='text-[#3E5F44] text-lg'>Already have an account?</Text>
-            <Link href="/(auth)/sign-in">
+            <Link href="/sign-in">
               <Text className='text-[#3E5F44] text-lg font-medium'>Sign in</Text>
             </Link>
           </View>
