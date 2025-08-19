@@ -20,7 +20,7 @@ export const SignOutButton = () => {
         onPress: async () => {
          try {
           await signOut()
-          Linking.openURL(Linking.createURL('/'))
+          Linking.openURL(Linking.createURL('/(auth)/sign-in'))
         } catch (err) {
           console.error(JSON.stringify(err, null, 2))
         }

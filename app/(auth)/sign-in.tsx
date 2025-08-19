@@ -129,7 +129,7 @@ export default function SignInPage() {
 
             <View className="flex-row justify-center pt-4">
               <Text className="text-[#3E5F44] text-lg">Don&apos;t have an account? </Text>
-              <Link href="/sign-up" className="text-[#3E5F44] font-medium text-lg">
+              <Link href="/(auth)/sign-up" className="text-[#3E5F44] font-medium text-lg">
                 Sign Up
               </Link>
             </View>

@@ -41,7 +41,7 @@ export default function Profile() {
       );
       Alert.alert('Success', response.data.message);
       setBalance('');
-      router.push('/');
+      router.push('/(root)');
     } catch (error: any) {
       console.error('Error updating balance:', error);
       Alert.alert(

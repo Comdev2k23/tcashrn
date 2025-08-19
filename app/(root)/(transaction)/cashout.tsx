@@ -63,7 +63,7 @@ export default function Cashout() {
       Alert.alert('Error', 'Failed to save transaction. Please try again.');
     } finally {
       setIsLoading(false);
-      router.push('/');
+      router.push('/(root)');
     }
   };
 
@@ -78,7 +78,7 @@ export default function Cashout() {
         keyboardShouldPersistTaps="handled"
       >
         <View style={styles.header}>
-          <TouchableOpacity onPress={() => router.push('/')} style={styles.backButton}>
+          <TouchableOpacity onPress={() => router.push('/(root)')} style={styles.backButton}>
             <Ionicons name="arrow-back" size={24} color="#5E936C" />
           </TouchableOpacity>
           <Text style={styles.title}>Cash-Out Transaction</Text>
